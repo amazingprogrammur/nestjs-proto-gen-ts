@@ -8,6 +8,7 @@
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
     "scripts": {
+        "prepublish": "npm run build",
         "format": "prettier --write \"src/**/*.ts\"",
         "lint": "eslint \"src/**/*.ts\" --fix",
         "build": "tsc --sourceMap false --declaration false",
