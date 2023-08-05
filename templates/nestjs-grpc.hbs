@@ -97,7 +97,7 @@ export enum {{@key}} {
 {{#if (enumComment @key)}}
     {{enumComment @key}}
 {{/if}}
-    {{@key}} = {{this}},
+    {{@key}} = {{@key}},
 {{/each}}
 }
 {{/inline}}
