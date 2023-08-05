@@ -108,6 +108,7 @@ export class Compiller {
 
         root.loadSync(file, {
             keepCase: this.options.keepCase,
+            enums: String,
             alternateCommentMode: this.options.comments
         }).resolveAll();
 
